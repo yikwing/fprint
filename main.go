@@ -24,54 +24,54 @@ var (
 
 //  =============================    bg    ==========================================
 
-func GreenBg(str interface{}) {
+func GreenBg(str ...interface{}) {
 	fmt.Println(greenBg, str, reset)
 }
 
-func GrayBg(str interface{}) {
+func GrayBg(str ...interface{}) {
 	fmt.Println(whiteBg, str, reset)
 }
 
-func YellowBg(str interface{}) {
+func YellowBg(str ...interface{}) {
 	fmt.Println(yellowBg, str, reset)
 }
 
-func RedBg(str interface{}) {
+func RedBg(str ...interface{}) {
 	fmt.Println(redBg, str, reset)
 }
 
-func BlueBg(str interface{}) {
+func BlueBg(str ...interface{}) {
 	fmt.Println(blueBg, str, reset)
 }
 
-func MagentaBg(str interface{}) {
+func MagentaBg(str ...interface{}) {
 	fmt.Println(magentaBg, str, reset)
 }
 
-func CyanBg(str interface{}) {
+func CyanBg(str ...interface{}) {
 	fmt.Println(cyanBg, str, reset)
 }
 
 //  =============================    text    ==========================================
 
-func Green(str interface{}) {
+func Green(str ...interface{}) {
 	fmt.Println(green, str, reset)
 }
-func White(str interface{}) {
+func White(str ...interface{}) {
 	fmt.Println(white, str, reset)
 }
-func Yellow(str interface{}) {
+func Yellow(str ...interface{}) {
 	fmt.Println(yellow, str, reset)
 }
-func Red(str interface{}) {
+func Red(str ...interface{}) {
 	fmt.Println(red, str, reset)
 }
-func Blue(str interface{}) {
+func Blue(str ...interface{}) {
 	fmt.Println(blue, str, reset)
 }
-func Magenta(str interface{}) {
+func Magenta(str ...interface{}) {
 	fmt.Println(magenta, str, reset)
 }
-func Cyan(str interface{}) {
+func Cyan(str ...interface{}) {
 	fmt.Println(cyan, str, reset)
 }
